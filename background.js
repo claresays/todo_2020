@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const imgNum = 13;
+const imgNum = 9;
 
 function showImage(imgNum) {
     const image = new Image();
@@ -8,7 +8,7 @@ function showImage(imgNum) {
     image.classList.add("background-img");
 }
 function getRandom() {
-    const num = Math.floor(Math.random() * 14);
+    const num = Math.floor(Math.random() * 10);
     return num;
 }
 function start() {
