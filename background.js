@@ -3,7 +3,7 @@ const imgNum = 13;
 
 function showImage(imgNum) {
     const image = new Image();
-    image.src = `/images/${imgNum + 1}.jpg`;
+    image.src = `images/${imgNum + 1}.jpg`;
     body.prepend(image);
     image.classList.add("background-img");
 }
